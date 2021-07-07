@@ -1,0 +1,14 @@
+{
+    "paLibSubs": {
+        "paMods": {
+            "display": {
+                "ILI9341": {
+                    "header=Conf_ILI9341.h": "Only Use For Gen Header,Don't change",
+                    "Conf_ILI9341_CS": "GPIOB,GPIO_PIN_10",
+                    "Conf_ILI9341_DC": "GPIOB,GPIO_PIN_11",
+                    "Conf_ILI9341_RST": "GPIOB,GPIO_PIN_12"
+                }
+            }
+        }
+    }
+}

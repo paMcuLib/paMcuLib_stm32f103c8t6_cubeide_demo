@@ -1,0 +1,7 @@
+{
+    "libConfFilePath": "Core/Inc",
+    "defaultConfFileName": "AllConfig.h",
+    "libSrcPath": "prj",
+    "describeFileFolderName": "",
+    "describeFileName": "describe.txt"
+}

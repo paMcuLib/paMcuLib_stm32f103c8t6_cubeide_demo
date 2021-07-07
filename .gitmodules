@@ -1,0 +1,15 @@
+[submodule "prj/paLibSubs/paCoreInc"]
+	path = prj/paLibSubs/paCoreInc
+	url = https://hub.fastgit.org/paMcuLib/paMcuLibCoreHead.git
+[submodule "prj/paLibSubs/paCoreSrc"]
+	path = prj/paLibSubs/paCoreSrc
+	url = https://hub.fastgit.org/paMcuLib/paMcuLibCore_stm32.git
+[submodule "prj/paLibSubs/paMods/display/SSD1306"]
+	path = prj/paLibSubs/paMods/display/SSD1306
+	url = https://hub.fastgit.org/paMcuLib/ssd1306_paMcuLib.git
+[submodule "prj/paLibSubs/paMods/display/ILI9341"]
+	path = prj/paLibSubs/paMods/display/ILI9341
+	url = https://hub.fastgit.org/paMcuLib/ili9341_paMcuLib.git
+[submodule "prj/paLibSubs/paMods/input/xpt2046"]
+	path = prj/paLibSubs/paMods/input/xpt2046
+	url = https://hub.fastgit.org/paMcuLib/xpt2046_paMcuLib.git
