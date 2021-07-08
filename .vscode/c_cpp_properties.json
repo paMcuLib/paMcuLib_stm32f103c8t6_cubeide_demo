@@ -3,13 +3,22 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/paLibSubs",
+                // "${workspaceFolder}/**",
+                "${workspaceFolder}/prj/paLibSubs",
+                "${workspaceFolder}/prj/Core/Inc",
+                "${workspaceFolder}/prj/Drivers/STM32F1xx_HAL_Driver/Inc",
+                "${workspaceFolder}/prj/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/prj/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "${workspaceFolder}/prj/Drivers/CMSIS/Include",
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "DEBUG",
+                "STM32F103xB",
+                "USE_HAL_DRIVER",
+                "__STATIC_INLINE=static"
             ],
             "windowsSdkVersion": "10.0.19041.0",
             "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe",
