@@ -68,13 +68,17 @@ paMcuLib **stm32f103c8t6_cubeide**平台的例程
 
       记得照着配置连好屏幕
 
-      spi config can be found in cubemx
+      ![image-20210708022733608](https://hanbaoaaa.xyz/tuchuang/images/2021/07/07/image-20210708022733608.png)
 
-      spi配置需要再cubemx中查看
+      spi&i2c config can be found in cubemx
+
+      spi&i2c 配置需要再cubemx中查看
 
       ![image-20210708023017812](https://hanbaoaaa.xyz/tuchuang/images/2021/07/07/image-20210708023017812.png)
 
-      ![image-20210708022733608](https://hanbaoaaa.xyz/tuchuang/images/2021/07/07/image-20210708022733608.png)
+    - demo 可以再main中进行切换
+
+      ![image-20210709023311293](https://hanbaoaaa.xyz/tuchuang/images/2021/07/08/image-20210709023311293.png)
 
     - then right click the side panel and select **3rd part** to **generate config headers**
 
@@ -102,6 +106,14 @@ paMcuLib **stm32f103c8t6_cubeide**平台的例程
 
     - after loaded, the screen turned to black after inited.
 
-      加载完成后，屏幕会变成黑色，
+      - 如果是ili9341，demo
 
-      ![image-20210708023910724](https://hanbaoaaa.xyz/tuchuang/images/2021/07/07/image-20210708023910724.png)
+        加载完成后，屏幕会变成黑色，
+
+        ![image-20210708023910724](https://hanbaoaaa.xyz/tuchuang/images/2021/07/07/image-20210708023910724.png)
+
+      - 如果是u8g2demo，则会显示一个移动的u8g2文字
+
+        ![image-20210709020725466](https://hanbaoaaa.xyz/tuchuang/images/2021/07/08/image-20210709020725466.png)
+
+      
