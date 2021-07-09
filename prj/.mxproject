@@ -9,17 +9,17 @@ CDefines=USE_HAL_DRIVER;STM32F103xB;USE_HAL_DRIVER;USE_HAL_DRIVER;
 [PreviousGenFiles]
 AdvancedFolderStructure=true
 HeaderFileListSize=3
-HeaderFiles#0=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Inc/stm32f1xx_it.h
-HeaderFiles#1=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Inc/stm32f1xx_hal_conf.h
-HeaderFiles#2=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Inc/main.h
+HeaderFiles#0=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Inc/stm32f1xx_it.h
+HeaderFiles#1=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Inc/stm32f1xx_hal_conf.h
+HeaderFiles#2=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Inc/main.h
 HeaderFolderListSize=1
-HeaderPath#0=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Inc
+HeaderPath#0=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Inc
 HeaderFiles=;
 SourceFileListSize=3
-SourceFiles#0=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Src/stm32f1xx_it.c
-SourceFiles#1=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Src/stm32f1xx_hal_msp.c
-SourceFiles#2=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Src/main.c
+SourceFiles#0=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Src/stm32f1xx_it.c
+SourceFiles#1=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Src/stm32f1xx_hal_msp.c
+SourceFiles#2=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Src/main.c
 SourceFolderListSize=1
-SourcePath#0=E:/pa_files/project/ee_little_prj/stm32_demo/stm32_demo/Core/Src
+SourcePath#0=E:/pa_files/project/ee/paMcuLib_stm32f103c8t6_cubeide_demo/prj/Core/Src
 SourceFiles=;
 

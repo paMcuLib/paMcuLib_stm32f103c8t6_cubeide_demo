@@ -35,12 +35,13 @@ void mainAppEntry()
     // OLED_Init(0);
     // OLED_On();
     // OLED_ShowString(0, 0, "121", 12);
+    u8g2_SetFont(&u8g2, u8g2_font_10x20_mf);
     while (1)
     {
         /* USER CODE END WHILE */
         static int x = 30, y = 10;
         u8g2_ClearBuffer(&u8g2);
-        u8g2_SetFont(&u8g2, u8g2_font_10x20_mf);
+
         u8g2_DrawStr(&u8g2, x, y, "u8g2");
         if (x >= 70)
         {
@@ -48,8 +49,8 @@ void mainAppEntry()
         }
         else
         {
-            x++;
-            y++;
+            x += 2;
+            y += 2;
         }
 
         u8g2_SendBuffer(&u8g2);
