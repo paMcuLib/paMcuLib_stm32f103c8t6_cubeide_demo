@@ -1,5 +1,5 @@
 {
-    "libConfFilePath": "Core/Inc",
+    "libConfFilePath": "prj/Core/Inc",
     "defaultConfFileName": "AllConfig.h",
     "libSrcPath": "prj",
     "describeFileFolderName": "",

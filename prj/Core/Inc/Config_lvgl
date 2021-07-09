@@ -1,0 +1,5 @@
+#ifndef Config_lvgl_____
+#define Config_lvgl_____
+#define Config_lvgl_SwapRgb2Bgr 0
+#define LV_COLOR_DEPTH 16
+#endif

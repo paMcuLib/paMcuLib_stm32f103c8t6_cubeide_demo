@@ -2,6 +2,11 @@
     "paLibSubs": {
         "paMods": {
             "display": {
+                "lvgl": {
+                    "header=Config_lvgl": "Only Use For Gen Header,Don't change",
+                    "Config_lvgl_SwapRgb2Bgr": "0",
+                    "LV_COLOR_DEPTH": "16"
+                },
                 "ILI9341": {
                     "header=Conf_ILI9341.h": "Only Use For Gen Header,Don't change",
                     "Conf_ILI9341_CS": "GPIOB,GPIO_PIN_10",
