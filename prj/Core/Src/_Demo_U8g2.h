@@ -49,8 +49,8 @@ void mainAppEntry()
         }
         else
         {
-            x += 2;
-            y += 2;
+            x += 6;
+            y += 6;
         }
 
         u8g2_SendBuffer(&u8g2);
