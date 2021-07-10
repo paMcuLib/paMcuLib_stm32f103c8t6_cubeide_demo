@@ -33,7 +33,8 @@
                 "rename": "lvgl",
                 "notice": [
                     "1.remember to check the config with extension: Macro Define Helper",
-                    "2.should be used with rgb screen"
+                    "2.should be used with rgb screen",
+                    "3.f103c8t6 has not enough rom space"
                 ],
                 "device_supported": [
                     "ILI9341"
